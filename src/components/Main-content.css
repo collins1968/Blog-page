@@ -9,23 +9,50 @@
 .content {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    align-items: center;
+    width: 85%;
     height: 90%;
     background-color: #fff;
-    color: blue;
+    color: rgb(0, 0, 0);
     border-radius: 20px;
+    padding: 20px; 
+    margin: 10px;
+    gap: 10px;
+    overflow-y: scroll;
+    
     
 }
 
 .blogpost {
-    list-style: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
     border: 1px solid #ccc;
     border-radius: 10px;
-    gap: 10px;
+    margin: 10px;
+    /* padding: 10px; */
+    background-color: #86889c;
+}
+
+.title {
+    font-size: x-large;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    /* margin: 10px; */
+    background-color: #31398b;
     width: 100%;
-    display: flex;
+    padding-top: 10px;
+    margin-top: 0%;
+    height: 60px;
+    border-radius: 0 0 15px 15px;
+
+}
+    
+.blogpost p {
+    font-size: large;
+    color: #fff;
+    text-align: justify;
+    margin: 10px;
     padding: 10px;
-    flex-direction: column;
-    justify-content: space-between;
-    /* align-items: center; */
 }

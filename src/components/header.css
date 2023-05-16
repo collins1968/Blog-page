@@ -1,0 +1,16 @@
+.MainHeader{
+    display: flex;
+    gap: 50px;
+    font-style: italic;
+    font-size: xx-large;
+    align-items: center;
+}
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 2px #fff;
+}
