@@ -4,7 +4,21 @@
     font-style: italic;
     font-size: xx-large;
     align-items: center;
+    margin-left: 20px;
+    justify-content: space-between;
 }
+.Titlebar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+.navbar{
+    display: flex;
+    text-decoration-line: none;
+
+}
+
 img {
     width: 100px;
     height: 100px;
@@ -14,3 +28,15 @@ img {
     border: 2px solid #fff;
     box-shadow: 0 0 0 2px #fff;
 }
+
+.logotitle {
+    color: rgb(1, 1, 41);
+}
+
+h2 {
+    margin-right: 20px;
+    padding: 10px;
+    text-decoration: none;
+
+}
+

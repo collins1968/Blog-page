@@ -1,0 +1,24 @@
+.blog-page {
+    height: 80vh;
+    /* //background-color: rgb(31, 34, 36); */
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+    box-shadow: rgba(0, 0, 0, 2) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    /* padding: 20px; */
+    border-radius: 10px;
+    font-size: 25px;
+    overflow-y: scroll;
+}
+
+.blogContent {
+    padding: 20px;
+    
+}
+.blogContent::first-letter {
+    font-size: 7rem; /* Adjust the font size as needed */
+    line-height: 0.4; /* Adjust the line height as needed */
+    float: left;
+    font-style: italic;
+    padding-right: 10px; /* Add some spacing between the first letter and the rest of the text */
+  }

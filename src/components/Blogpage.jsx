@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import BlogPosts from "../Data/BlogPosts";
-import "./blog-page.css"
+import "./blogpage.css"
 // import BlogPosts from "./Main-content";
 
 

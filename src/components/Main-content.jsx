@@ -18,10 +18,10 @@ const MainContent = ({title, content}) => {
                 ))}
       </div>
       <div className='sidebar'>
-        <h2>Recently added</h2>
+        <h2>Recently added...</h2>
         <ul>
             {BlogPosts.map((post) => (
-                <li>
+                <li className='highlights'>
                     <Link to={`/blog/${post.id}`}><h3>{post.title}</h3></Link>
                     
                 </li>)
