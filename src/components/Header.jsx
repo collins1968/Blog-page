@@ -11,13 +11,9 @@ const Header = () => {
             </div>
             <div className='navbar'>
            <Link to={'/Blog-page'}><h2>home</h2></Link>
-           <Link to={'/Blog-page/#'}><h2>about</h2></Link>
-           <Link to={'/Blog-page/#'}><h2>contact</h2></Link>
-            </div>
-            
-           
-       
-            
+           <Link to={'/Blog-page/about'}><h2>about</h2></Link>
+           <Link to={'/Blog-page/contact'}><h2>contact</h2></Link>
+            </div>     
         </div>
     )
 
